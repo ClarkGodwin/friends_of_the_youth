@@ -1,7 +1,7 @@
 /*global  css variables*/
 :root {
-  --font-default: 'MainFont', system-ui, -apple-system, sans-serif;
-  --font-accent: 'AccentFont', Georgia, serif;
+  --font-default: 'Inter';
+  --font-accent: 'InstrumentSans';
 }
 
 /*global properties*/
