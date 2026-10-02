@@ -1,10 +1,8 @@
 /*general settings concerning the header as a whole*/
 .header {
-    /* border: 1px double black; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding-inline: 40px; */
     padding-inline: var(--spacing-header-p);
 }
 
@@ -17,20 +15,17 @@
 
 /*settings concerning the logo and the text on its right*/
 .logo {
-    /* border: 1px double black; */
     display: flex;
     align-items: center;
 }
 
 .logo img {
-    /* width: 122px; */
     width: var(--width-header-logo-img);
 }
 
 .logo div {
     font-family: var(--font-accent);
     color: var(--color-dark-blue);
-    /* font-size: 32px; */
     font-size: var(--text-header-logo);
 }
 
@@ -49,7 +44,6 @@
 
 /*settings concerning the nav link*/
 .links {
-    /* border: 1px double black; */
     color: var(--color-light-blue);
     font-size: var(--text-header-links);
     width: var(--width-header-links);
@@ -91,8 +85,22 @@
 /*responsivness*/
 
 @media (width < 500px) {
+    .nav {
+        position: relative;
+        /* padding-right: 30px; */
+        padding-right: var(--spacing-header-hamburger-pr);
+    }
     .links {
-        display: none;
+        /* border: 1px solid black; */
+        flex-direction: column;
+        align-items: center;
+        /* width: 80px; */
+        width: var(--width-header-hamburger-links);
+        /* font-size: 14px; */
+        font-size: var(--text-header-hamburger-links);
+        position: absolute;
+        top: var(--spacing-header-hamburger-links-top);
+        right: 0px;
     }
 }
 
