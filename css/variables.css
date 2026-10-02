@@ -1,11 +1,19 @@
 /*global  css variables*/
 :root {
-  --font-default: 'Inter';
-  --font-accent: 'InstrumentSans';
+    /*fonts*/
+    --font-default: 'Inter';
+    --font-accent: 'InstrumentSans';
+
+    /*colors*/
+    --color-text: #1f2937;
+    --color-gray-text: #374151;
+    --color-dark-blue: #1f5383;
+    --color-ligt-blue: #5aafdf;
+    --color-green-yellow: #9bbc72;
 }
 
 /*global properties*/
 body {
-  font-family: var(--font-default);
-  line-height: 1.5;
+    font-family: var(--font-default);
+    line-height: 1.5;
 }
