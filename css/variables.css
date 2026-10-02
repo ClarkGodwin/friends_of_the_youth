@@ -1,9 +1,10 @@
+/*global  css variables*/
 :root {
   --font-default: 'MainFont', system-ui, -apple-system, sans-serif;
   --font-accent: 'AccentFont', Georgia, serif;
 }
 
-/* Appliquer la police par défaut à tout le site */
+/*global properties*/
 body {
   font-family: var(--font-default);
   line-height: 1.5;
