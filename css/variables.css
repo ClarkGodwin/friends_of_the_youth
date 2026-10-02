@@ -15,8 +15,8 @@
 
 
     /*for the app-header component*/
-    --text-links : clamp(0.875rem,0.69rem + 0.926vw,1.5rem);
-    --width-links : clamp(13.75rem, 9.491rem + 21.296vw, 28.125rem);
+    --text-links : clamp(0.875rem,0.528rem + 1.111vw,1.5rem);
+    --width-links : clamp(13.75rem, 5.764rem + 25.556vw, 28.125rem);
 }
 
 /*global properties*/
