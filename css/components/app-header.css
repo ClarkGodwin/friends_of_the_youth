@@ -1,47 +1,103 @@
 /*general settings concerning the header as a whole*/
-#header {
+.header {
     /* border: 1px double black; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     /* padding-inline: 40px; */
-    padding-inline: 5px;
+    padding-inline: var(--spacing-header-p);
 }
 
 
+
+
+
+
+
+
 /*settings concerning the logo and the text on its right*/
-#logo {
+.logo {
     /* border: 1px double black; */
     display: flex;
     align-items: center;
 }
 
-#logo img  {
+.logo img {
     /* width: 122px; */
-    width: 60px;
+    width: var(--width-header-logo-img);
 }
 
-#logo div {
+.logo div {
     font-family: var(--font-accent);
     color: var(--color-dark-blue);
     /* font-size: 32px; */
-    font-size: 18px;
+    font-size: var(--text-header-logo);
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 /*settings concerning the nav link*/
-#links {
+.links {
     /* border: 1px double black; */
     color: var(--color-light-blue);
-    /* font-size: 24px; */
-    font-size: var(--text-links);
-    /* width: 450px; */
-    width: var(--width-links);
+    font-size: var(--text-header-links);
+    width: var(--width-header-links);
     display: flex;
     justify-content: space-between;
 }
 
-#links a {
+.links a {
     color: var(--color-light-blue);
     text-decoration-line: none;
+}
+
+
+
+
+
+.chevron_down {
+    /* Dimensions */
+    width: var(--width-header-hamburger);
+    height: var(--width-header-hamburger);
+
+    /* Couleur souhaitée */
+    background-color: var(--color-light-blue);
+
+    /* Application du SVG comme masque */
+    -webkit-mask-image: url('../../public/SVGs/chevron_down.svg');
+    mask-image: url('../../public/SVGs/chevron_down.svg');
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+}
+
+
+
+
+
+
+/*responsivness*/
+
+@media (width < 500px) {
+    .links {
+        display: none;
+    }
+}
+
+@media (width >= 500px) {
+    .hamburger {
+        display: none;
+    }
 }

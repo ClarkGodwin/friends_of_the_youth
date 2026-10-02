@@ -15,8 +15,12 @@
 
 
     /*for the app-header component*/
-    --text-links : clamp(0.875rem,0.528rem + 1.111vw,1.5rem);
-    --width-links : clamp(13.75rem, 5.764rem + 25.556vw, 28.125rem);
+    --spacing-header-p : clamp(0.625rem,-0.417rem + 3.333vw,2.5rem);
+    --width-header-logo-img : clamp(3.75rem,2.602rem + 5.741vw,7.625rem);
+    --text-header-logo : clamp(1rem, 0.704rem + 1.481vw, 2rem);
+    --text-header-links : clamp(0.875rem,0.528rem + 1.111vw,1.5rem);
+    --width-header-links : clamp(13.75rem, 5.764rem + 25.556vw, 28.125rem);
+    --width-header-hamburger : clamp(0.875rem,0.431rem + 2.222vw,1.125rem);
 }
 
 /*global properties*/
