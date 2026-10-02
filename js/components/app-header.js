@@ -30,3 +30,9 @@ class AppHeader extends HTMLElement {
 }
 
 customElements.define("app-header", AppHeader);
+
+/*declaration of variables that links to the corresponding html tag */
+const linksElement = document.querySelector('.links');
+const hamburgerElement = document.querySelector('.hamburger');
+const chevronDownElement = document.querySelector('.chevron_down');
+const chevronUpElement = document.querySelector('.chevron_up');
