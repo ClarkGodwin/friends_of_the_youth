@@ -8,10 +8,10 @@ class AppHeader extends HTMLElement {
                 </div>
 
                 <nav id='links'>
-                    <span>About me</span>
-                    <span>Vision</span>
-                    <span>Mission</span>
-                    <span>Contact</span>
+                    <a href="#">About me</a>
+                    <a href="#">Vision</a>
+                    <a href="#">Mission</a>
+                    <a href="#">Contact</a>
                 </nav>
 
             </header>

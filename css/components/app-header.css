@@ -1,0 +1,42 @@
+/*general settings concerning the header as a whole*/
+#header {
+    /* border: 1px double black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 40px;
+}
+
+
+/*settings concerning the logo and the text on its right*/
+#logo {
+    /* border: 1px double black; */
+    display: flex;
+    align-items: center;
+}
+
+#logo img  {
+    width: 122px;
+}
+
+#logo div {
+    font-family: var(--font-accent);
+    color: var(--color-dark-blue);
+    font-size: 32px;
+}
+
+
+/*settings concerning the nav link*/
+#links {
+    /* border: 1px double black; */
+    color: var(--color-light-blue);
+    font-size: 24px;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#links a {
+    color: var(--color-light-blue);
+    text-decoration-line: none;
+}
