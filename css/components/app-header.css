@@ -77,6 +77,23 @@
     mask-size: contain;
 }
 
+.chevron_up {
+    /* Dimensions */
+    width: var(--width-header-hamburger);
+    height: var(--width-header-hamburger);
+
+    /* Couleur souhaitée */
+    background-color: var(--color-light-blue);
+
+    /* Application du SVG comme masque */
+    -webkit-mask-image: url('../../public/SVGs/chevron_up.svg');
+    mask-image: url('../../public/SVGs/chevron_up.svg');
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+}
+
 
 
 
@@ -87,16 +104,13 @@
 @media (width < 500px) {
     .nav {
         position: relative;
-        /* padding-right: 30px; */
         padding-right: var(--spacing-header-hamburger-pr);
     }
     .links {
-        /* border: 1px solid black; */
+        display: none;
         flex-direction: column;
         align-items: center;
-        /* width: 80px; */
         width: var(--width-header-hamburger-links);
-        /* font-size: 14px; */
         font-size: var(--text-header-hamburger-links);
         position: absolute;
         top: var(--spacing-header-hamburger-links-top);
