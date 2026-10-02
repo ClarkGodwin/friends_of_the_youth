@@ -34,9 +34,9 @@
     /* border: 1px double black; */
     color: var(--color-light-blue);
     /* font-size: 24px; */
-    font-size: 14px;
+    font-size: var(--text-links);
     /* width: 450px; */
-    width: 220px;
+    width: var(--width-links);
     display: flex;
     justify-content: space-between;
 }
