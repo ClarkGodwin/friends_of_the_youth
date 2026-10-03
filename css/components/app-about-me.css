@@ -1,3 +1,10 @@
 .about {
     background-color: var(--color-background);
 }
+
+.about h1 {
+    text-align: center;
+    color: var(--color-green-yellow);
+    font-size: 36px;
+    font-family: var(--font-accent);
+}

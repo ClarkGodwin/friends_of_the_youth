@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center;
     padding-inline: var(--spacing-header-p);
+    font-family: var(--font-accent);
 }
 
 
@@ -24,9 +25,9 @@
 }
 
 .logo div {
-    font-family: var(--font-accent);
     color: var(--color-dark-blue);
     font-size: var(--text-header-logo);
+    font-weight: bold;
 }
 
 
