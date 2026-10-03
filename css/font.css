@@ -1,13 +1,5 @@
 /* Default font, Inter */
 @font-face {
-  font-family: 'Inter';
-  src: url('/public/Fonts/Inter.ttf') format('ttf');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
   font-family: 'InstrumentSans';
   src: url('/public/Fonts/Arimo-VariableFont_wght.ttf') format('ttf');
   font-weight: bold;
