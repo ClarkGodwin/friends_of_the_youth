@@ -30,14 +30,14 @@
 
 
     /*for the app-about-me component*/
-    --spacing-about-col-raw-pt : clamp(0.313rem,-0.625rem + 2.143vw,1.25rem);
-    --spacing-about-col-raw-pb : clamp(2.5rem, 1.875rem + 1.429vw, 3.125rem);
-    --text-about-col-raw-h1 : clamp(1.563rem, 0.875rem + 1.571vw, 2.25rem);
-    --width-about-col-raw-content : clamp(40.625rem, 6.25rem + 78.571vw, 75rem);
-    --text-about-col-raw-content : clamp(0.75rem, 0.5rem + 0.571vw, 1rem);
-    --width-about-col-raw-content-paragraph : clamp(23.125rem, -0.125rem + 53.143vw, 46.375rem);
-    --spacing-about-col-raw-content-paragraph-mb : clamp(0.188rem, -0.25rem + 1vw, 0.625rem);
-    --width-about-col-raw-content-image : clamp(12.5rem, 11.125rem + 3.143vw, 13.875rem);
+    --spacing-about-col-raw-pt : clamp(0.313rem,-0.208rem + 1.667vw,1.25rem);
+    --spacing-about-col-raw-pb : clamp(2.5rem, 2.153rem + 1.111vw, 3.125rem);
+    --text-about-col-raw-h1 : clamp(1.25rem, 0.694rem + 1.778vw, 2.25rem);
+    --width-about-col-raw-content : clamp(28.125rem, 2.083rem + 83.333vw, 75rem);
+    --text-about-col-raw-content : clamp(0.75rem, 0.611rem + 0.444vw, 1rem);
+    --width-about-col-raw-content-paragraph : clamp(14.375rem, -3.542rem + 57.333vw, 46.625rem);
+    --spacing-about-col-raw-content-paragraph-mb : clamp(0.625rem, -0.069rem + 2.222vw, 1.875rem);
+    --width-about-col-raw-content-image : clamp(10.625rem, 8.819rem + 5.778vw, 13.875rem);
 }
 
 /*global properties*/
