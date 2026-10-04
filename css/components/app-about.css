@@ -1,15 +1,15 @@
 .about {
     background-color: var(--color-background);
-    padding-block-start: var(--spacing-about-col-raw-pt);
+    padding-block-start: var(--spacing-about-raw-pt);
     /* padding-block-start: 5px; */
-    padding-block-end: var(--spacing-about-col-raw-pb);
+    padding-block-end: var(--spacing-about-raw-pb);
     /* padding-block-end: 40px; */
 }
 
 .about h1 {
     text-align: center;
     color: var(--color-green-yellow);
-    font-size: var(--text-about-col-raw-h1);
+    font-size: var(--text-about-raw-h1);
     /* font-size: 20px; */
 }
 
@@ -17,15 +17,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: var(--width-about-col-raw-content);
+    width: var(--width-about-raw-content);
     /* width: 450px; */
     margin-inline: auto;
-    font-size: var(--text-about-col-raw-content);
+    font-size: var(--text-about-raw-content);
     /* font-size: 12px; */
 }
 
 .content > div {
-    width: var(--width-about-col-raw-content-paragraph);
+    width: var(--width-about-raw-content-paragraph);
     /* width: 230px; */
 }
 
@@ -42,7 +42,7 @@
 }
 
 .activities > div {
-    margin-bottom: var(--spacing-about-col-raw-content-paragraph-mb);
+    margin-bottom: var(--spacing-about-raw-content-paragraph-mb);
     /* margin-bottom: 10px; */
 }
 
@@ -51,7 +51,13 @@
 }
 
 .content img {
-    width: var(--width-about-col-raw-content-image);
+    width: var(--width-about-raw-content-image);
     /* width: 170px; */
     border-radius: 12px;
+}
+
+@media (width < 500px){
+    .content {
+        flex-direction: column;
+    }
 }
