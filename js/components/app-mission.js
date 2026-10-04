@@ -2,8 +2,8 @@ class AppMission extends HTMLElement {
     connectedCallback() {
         this.innerHTML = /* html */ `
             <section id='mission' class="mission">
-                <h1>Vision</h1>
-                <div>to fight the dropping out of the children in school and have a developed area  through education Mission</div>
+                <h1>mission</h1>
+                <div>to be the leading foundation in Africa</div>
             </section>
         `
     }
