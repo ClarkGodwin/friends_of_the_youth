@@ -1,4 +1,4 @@
-class AppAboutMe extends HTMLElement {
+class AppAbout extends HTMLElement {
   connectedCallback() {
     this.innerHTML = /* html */ `
             <section id='about' class="about">
@@ -30,4 +30,4 @@ class AppAboutMe extends HTMLElement {
   }
 }
 
-customElements.define("app-about-me", AppAboutMe);
+customElements.define("app-about", AppAbout);
