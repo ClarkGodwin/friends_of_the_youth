@@ -1,0 +1,37 @@
+.contact {
+    padding-block: 40px;
+    padding-inline: 20px;
+}
+
+.contact h1 {
+    color: var(--color-green-yellow);
+    text-align: center;
+    font-size: var(--text-h1);
+}
+
+.contact > div {
+    font-size: var(--text-content);
+}
+
+.contact ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: var(--color-light-blue);
+}
+
+.contact li img {
+    width: 50px;
+}
+
+.contact li a {
+    color: var(--color-light-blue);
+    text-decoration-line: none;
+}

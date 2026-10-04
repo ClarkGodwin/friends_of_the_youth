@@ -27,7 +27,7 @@ class AppContact extends HTMLElement {
                         </li>
 
                         <li>
-                            <img src="../../public/images/twitter" alt="x page of Aimé Clovis">
+                            <img src="../../public/images/twitter.png" alt="x page of Aimé Clovis">
                             <a href="https://x.com/Aimeclovis3">: https://x.com/Aimeclovis3</a>
                         </li>
 
