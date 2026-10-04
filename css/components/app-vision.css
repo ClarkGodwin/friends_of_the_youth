@@ -1,0 +1,13 @@
+.vision {
+    padding-block: 40px;
+}
+
+.vision h1 {
+    color: var(--color-green-yellow);
+    text-align: center;
+}
+
+.vision div {
+    font-size: var(--text-content);
+    text-align: center;
+}

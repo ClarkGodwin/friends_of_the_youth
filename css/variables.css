@@ -29,14 +29,17 @@
 
 
 
+    --text-h1 : clamp(1.25rem, 0.694rem + 1.778vw, 2.25rem);
+    --text-content : clamp(0.75rem, 0.542rem + 0.667vw, 1.125rem);
+
+
+
     /*for the app-about-me component*/
 
     /*raw indicates that it is for the screen >= 500px wich is the least size where the content will be shown with the flex-direction : raw*/
     --spacing-about-raw-pt : clamp(0.313rem,-0.208rem + 1.667vw,1.25rem);
     --spacing-about-raw-pb : clamp(2.5rem, 2.153rem + 1.111vw, 3.125rem);
-    --text-about-raw-h1 : clamp(1.25rem, 0.694rem + 1.778vw, 2.25rem);
     --width-about-raw-content : clamp(28.125rem, 2.083rem + 83.333vw, 75rem);
-    --text-about-raw-content : clamp(0.75rem, 0.611rem + 0.444vw, 1rem);
     --width-about-raw-content-paragraph : clamp(14.375rem, -3.542rem + 57.333vw, 46.625rem);
     --spacing-about-raw-content-paragraph-mb : clamp(0.625rem, -0.069rem + 2.222vw, 1.875rem);
     --width-about-raw-content-image : clamp(10.625rem, 8.819rem + 5.778vw, 13.875rem);

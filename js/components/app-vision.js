@@ -1,7 +1,10 @@
 class AppVision extends HTMLElement {
     connectedCallback() {
         this.innerHTML = /* html */ `
-            <footer>This is the footer</footer>
+            <section id='vision' class="vision">
+                <h1>Vision</h1>
+                <div>to fight the dropping out of the children in school and have a developed area  through education Mission</div>
+            </section>
         `
     }
 }
