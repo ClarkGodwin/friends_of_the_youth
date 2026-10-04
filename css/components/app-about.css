@@ -13,7 +13,7 @@
     /* font-size: 20px; */
 }
 
-.content {
+.aboutContent {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,7 +24,7 @@
     /* font-size: 12px; */
 }
 
-.content>div {
+.aboutContent>div {
     width: var(--width-about-raw-content-paragraph);
     /* width: 230px; */
 }
@@ -50,7 +50,7 @@
     color: var(--color-green-yellow);
 }
 
-.content img {
+.aboutContent img {
     width: var(--width-about-raw-content-image);
     /* width: 170px; */
     border-radius: 12px;
@@ -62,10 +62,10 @@
         width: 95%;
     }
 
-    .content>div {
+    .aboutContent>div {
         width: 90%;
     }
-    .content img {
+    .aboutContent img {
         width: 270px;
         margin-top: 40px;
     }

@@ -4,7 +4,7 @@ class AppAbout extends HTMLElement {
             <section id='about' class="about">
                 <h1>About me</h1>
 
-                <div class="content">
+                <div class="aboutContent">
                     <div>
                         <div class="intro">
                             <span>Igiraneza Aimé Clovis</span> is a Burundian youth leader, activist and founder of the organization Friends of the Youth. His work focuses on promoting children and young people, as well as building peace and leadership skills.
