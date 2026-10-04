@@ -34,7 +34,7 @@
 
 
 
-    /*for the app-about-me component*/
+    /*for the app-about component*/
 
     /*raw indicates that it is for the screen >= 500px wich is the least size where the content will be shown with the flex-direction : raw*/
     --spacing-about-raw-pt : clamp(0.313rem,-0.208rem + 1.667vw,1.25rem);
@@ -43,6 +43,16 @@
     --width-about-raw-content-paragraph : clamp(14.375rem, -3.542rem + 57.333vw, 46.625rem);
     --spacing-about-raw-content-paragraph-mb : clamp(0.625rem, -0.069rem + 2.222vw, 1.875rem);
     --width-about-raw-content-image : clamp(10.625rem, 8.819rem + 5.778vw, 13.875rem);
+
+
+
+
+    /*for the app-contact component*/
+    --spacing-contact-ul-gap : clamp(0.625rem,0.532rem + 0.463vw,0.938rem);
+    --spacing-contact-ul-px : clamp(0.938rem, 0.475rem + 2.315vw, 2.5rem);
+    --spacing-contact-li-gap : clamp(0.5rem, 0.37rem + 0.648vw, 0.938rem);
+    --text-contact-li : clamp(0.625rem, 0.477rem + 0.741vw, 1.125rem);
+    --width-contact-li-img : clamp(1.563rem, 1.1rem + 2.315vw, 3.125rem);
 
 }
 

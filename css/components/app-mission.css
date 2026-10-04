@@ -6,6 +6,7 @@
 .mission h1 {
     color: var(--color-green-yellow);
     text-align: center;
+    font-size: var(--text-h1);
 }
 
 .mission div {

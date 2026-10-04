@@ -16,19 +16,21 @@
 .contact ul {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: var(--spacing-contact-ul-gap);
+    padding-inline: var(--spacing-contact-ul-px);
 }
 
 .contact li {
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: var(--spacing-contact-li-gap);
     color: var(--color-light-blue);
+    font-size: var(--text-contact-li);
 }
 
 .contact li img {
-    width: 50px;
+    width: var(--width-contact-li-img);
 }
 
 .contact li a {
