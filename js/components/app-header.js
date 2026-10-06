@@ -3,7 +3,7 @@ class AppHeader extends HTMLElement {
     this.innerHTML = /* html */ `
             <header class='header' >
                 <div class='logo'>
-                    <img src="../public/images/friends_of_the_youth_logo.jpeg" alt="Friends of the youth">
+                    <img src="public/images/friends_of_the_youth_logo.jpeg" alt="Friends of the youth">
                     <div>Friends of the youth</div>
                 </div>
 

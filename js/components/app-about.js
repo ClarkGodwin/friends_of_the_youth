@@ -23,7 +23,7 @@ class AppAbout extends HTMLElement {
                         </div>
                     </div>
 
-                    <img src="../../public/images/clovis_picture.jpeg" alt="Igiraneza Aimé Clovis">
+                    <img src="public/images/clovis_picture.jpeg" alt="Igiraneza Aimé Clovis">
                 </div>
             </section> 
         `;
